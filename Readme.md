@@ -16,10 +16,18 @@ A lightweight and flexible library for managing CSS media queries programmatical
 **Get Started:**  
 Include this library in your project to take control of your responsive design needs without writing repetitive CSS media query code.  
 
+**Installation**
+
+```sh
+
+npm install @skriptx2/jsmediaquery
+
+```
+
 **Code Usage**
 
 ```js
-import { MediaQuery} from './index.js';
+import { MediaQuery } from "@skriptx2/jsmediaquery";
 
 MediaQuery.sm(); // returns true if between 577px and 767px
 
