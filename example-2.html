@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="screen"></h1>
+<script type="module">
+    import { MediaQuery} from './index.js';
+    const screen = document.getElementById("screen");
+    window.addEventListener('resize', init);
+    init();
+    function init(){
+        MediaQuery.set({sm:700})
+        if(MediaQuery.sm()){ // width 577 - 767
+            screen.innerText = "Small Device ";
+        }else{
+            screen.innerText = "Not A Small Device";
+        }
+    }
+</script>
+    
+</body>
+</html>
