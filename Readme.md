@@ -28,8 +28,11 @@ MediaQuery.get(); // returns breakpoints
 ```
 
 **Examples**
+
 ![Alt text](images/less-than-577px.png?raw=true "Less than 577px")
+
 ![Alt text](images/greater-than-767px.png?raw=true "Greater than 767px")
+
 ![Alt text](images/between-577px-and-767px.png?raw=true "Between 577px & 767px")
 
 To change the breakpoint
