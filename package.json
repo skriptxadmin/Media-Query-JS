@@ -1,0 +1,16 @@
+{
+  "name": "@skriptx2/jsmediaquery",
+  "version": "1.0.0",
+  "description": "**Description:**  \r A lightweight and flexible library for managing CSS media queries programmatically. This utility simplifies responsive design by providing an easy-to-use API for detecting and reacting to viewport changes. Perfect for developers seeking to streamline responsive UI development across projects.",
+  "main": "index.js",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/skriptxadmin/Media-Query-JS.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript","media-query", "css", "boostrap"],
+  "author": "Skriptx",
+  "license": "ISC"
+}

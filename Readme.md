@@ -33,7 +33,7 @@ MediaQuery.get(); // returns breakpoints
 
 ![Alt text](images/greater-than-767px.png?raw=true "Greater than 767px")
 
-![Alt text](images/between-577px-and-767px.png?raw=true "Between 577px & 767px")
+![Alt text](https://github.com/skriptxadmin/Media-Query-JS/blob/main/images/between-577px-and-767px.png?raw=true "Between 577px & 767px")
 
 To change the breakpoint
 
