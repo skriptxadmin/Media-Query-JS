@@ -53,5 +53,32 @@ MediaQuery.set({sm:700}) // sets sm max breakpoint to 700px
 
 ![Alt text](https://github.com/skriptxadmin/Media-Query-JS/blob/main/images/set-sm-700px.png?raw=true "Changing break point to 700px")
 
+**Full Usage**
+
+```js
+
+MediaQuery.xs(); // Extra small device
+MediaQuery.gtxs(); //  Greater than extra small device
+MediaQuery.ltsm(); // Less than small device
+MediaQuery.sm(); // Small device
+MediaQuery.gtsm(); // Greater than small device
+MediaQuery.ltmd(); // Less than medium device
+MediaQuery.md(); // Medium device
+MediaQuery.gtmd(); // Greater than medium device
+MediaQuery.ltlg(); // Less than large device
+MediaQuery.lg(); // Large device
+MediaQuery.gtlg(); // Greater than large device
+MediaQuery.ltxl(); //  Less than extra large device
+MediaQuery.xl(); //  Extra large device
+MediaQuery.gtxl(); //  Greater than extra large device
+MediaQuery.ltxxl(); //  Less than double extra large device
+MediaQuery.xxl(); //  Double extra large device
+
+MediaQuery.all(); // Returns all values
+MediaQuery.set(); // Sets breakpoints
+MediaQuery.get(); // Gets breakpoints
+MediaQuery.innerWidth; // Gets window innerwidth
+
+```
 
 Contributions are welcome! 🎉
